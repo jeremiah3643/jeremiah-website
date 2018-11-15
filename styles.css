@@ -8,9 +8,24 @@
     width: 40%;
     border-radius: 50%;
 }
-
-
 .top-header {
-    margin-left: 32%;
+    margin-left: 34%;
     margin-right: 25%;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+#aboutMe {
+order: 0;
+}
+#portfolio {
+    order: 1;
+}
+.contact {
+    order: 2;
+}
+#projectTag {
+    color: black;
+    text-decoration: none;
 }
